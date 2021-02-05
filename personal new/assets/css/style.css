@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding: 0;
+ 
+}
+body{
+    background-color:lavender;
+    margin: 35px 35px 35px 35px;
+    
+}
+.blue{
+color:darkcyan;
+}
+.bold{
+    font: 500px;
+    font-family: italic;
+
+}
+.everything{
+    margin-bottom:550px;
+    padding: 20px;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: blue;
+}
+nav p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222;
+    font-size:22px;
+    line-height: 55px;
+    float: left;
+}
+.img1{
+    height: 60px;
+    width:100px;
+    padding: 0px ;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.cat1{
+    height: 15px;
+    width:17px;
+    padding: 50px 50px 80px 50px;
+    margin: -30px 40px 0px 0px;
+}
+
+nav ul{
+    float:right;
+
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222;
+    font-size:14px;
+    padding: 8px 30px;
+    text-decoration: none;
+    margin-top: 0%;
+}
+nav ul li ul{
+    display: none;
+    margin-top: -50px;
+    position: absolute;
+    background-color:white;
+    padding: 0px;
+    border-radius:  0px 0px 7px 7px;
+
+} 
+
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul:hover li{
+    display: block;
+}
+nav ul li ul li {
+    width: 150px;
+    border-radius: 4px;
+}
+nav ul li ul li a:hover{
+    background-color: lavender;
+}
+nav  ul ul ul{
+margin-left: 100px;
+top: 0px;
+position: absolute;
+
+}
+
+}
+.img1{
+    height: 60px;
+    width:100px;
+    padding: 0px ;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.image{
+   
+    height: 20px;
+    width:50px;
+    padding: 10px 50px 100px 0px  ;
+    margin: 5px -50px 0px 0px ;
+    float: left;
+
+}
+.image img{
+   
+    height:500px;
+    width:500px;
+    padding: 10px 50px 10px 0px  ;
+    margin-top: 5px;
+    
+
+}
+.text{
+    margin: 0px 0px 0px 100px;
+    
+
+}
+
+.text p a{
+    
+    color: darkslategrey;
+}
+.text h1{
+    font-size: 25px;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+.middle{
+    float: right;
+    padding:50px 100px 10px 500px;
+}
+.text p{
+    text-align: justify;
+    line-height: 22px;
+}
+.items ul {
+    margin: -55px 0px 0px 100px;
+}
+.items ul li{
+    display: inline-block;
+    margin: 50px 10px 10px 80px;
+    list-style: none;
+    width: 2px;
+    height: 2px;
+}
+.items ul li img{
+    display: inline-block;
+    margin:20px;
+    width: 15px;
+    height: 15px;
+}
+
+.check {
+    width: 150px;
+    border-radius: 4px;
+    border: solid;
+    display: none;
+}
+
+.items li a{
+    color:white;
+    text-decoration: none;
+    font-size: 60px;
+}
+h3{
+    font-family: cursive;
+    
+}
+.par img{
+    height: 70px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+}
+.par p{
+    width: 70%;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background:white;
+    padding: 8px 0px;
+    
+}
+.foottext{
+    text-align: center;
+    font-family: cursive;
+    font-size: 11px;
+}
+.foottext a{
+    text-align: center;
+    font-family: cursive;
+    font-size: 13px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.footericons ul {
+    text-align: center;
+    margin: -80px 0px 0px -30px;
+    padding: 20px;
+}
+.footericons ul li{
+    display: inline-block;
+    margin: 50px 30px 10px 0px;
+    text-align: center;
+    list-style: none;
+    width: 2px;
+    height: 2px; 
+}
+.footericons img{
+    display: inline-block;
+    margin:20px;
+    width: 15px;
+    height: 15px;
+}
+.footericons li a{
+    color:white;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.gallery img{
+    width: 300px;
+    padding: 10px;
+    padding-left: 20px;
+   
+    
+    }
+    .gallery img:hover{
+        filter:grayscale(0);
+        transform: scale(1.1);
+    }
+    #header{
+        font-family: cursive;
+        margin: 30px;
+        text-align: center;
+        margin-top: -50px;
+    
+    }
+.both div{
+    display: inline-block;
+}
+.about{
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+.about p{
+    margin-left: 80px;
+    font-size:21px;
+    line-height: 30px;
+    margin-top: 120px;
+    width:70%;
+    padding-top: 80px;
+}
+
+.fam p{
+    margin-left: 40px;
+    font-size:21px;
+    line-height: 30px;
+    margin-top: 120px;
+    marker-end: 50px;
+    width:50%;
+}
+
+.picfam{
+    margin-left: 50px;
+}
+.picfam img{
+   
+    width: 300px;
+    height: 250px;
+   
+    margin-top: -230px;
+    margin-left: 750px;
+}
+.picfam img {
+   
+   border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 4px 8px rgba(0,0,0, 0.2);
+   
+}
+.friends p{
+    font-size:21px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.picfriends{
+    margin-bottom: 500px;
+}
+.picfriend {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+   border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2), 0 4px 8px rgba(0,0,0, 0.2);
+    box-sizing: border-box;
+    
+}
+
+.picfriend :hover {
+    border: 1px solid rgb(175, 169, 169);
+}
+
+.picfriend img {
+    width: 100%;
+   height: auto;
+}
+.mypic img{
+    height: 270px;
+    width:300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    padding-left: 70px;
+
+}
+.about p{
+    margin-top: 10px;
+}
+.photograph img{
+    height: 70px;
+    width: 70px;
+    margin-top: 150px;
+    padding-left: 200px;
+}
+.photo p{
+    width: 30%;
+    margin-top: 50px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.tennis img{
+    width: 70px;
+    height: 70px;
+    margin-top: -300px;
+    float: right;
+    padding-right: 250px;
+}
+.table-tennis p{
+    float: right;
+    font-size: 20px;
+    width: 30%;
+    padding-right: 100px;
+    margin-top: -200px;
+}
+
+.footer_fam {
+    margin-bottom: -700px;
+
+}
+
+.footer_portfolio{
+    margin-top: 50px;
+    margin-bottom: -600px;
+}
+
+.footer_images {
+    margin-top: -500px;
+}

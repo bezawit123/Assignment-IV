@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Answer for question 4-5</title>
+</head>
+
+<body>
+    <h2>#4 - </h2>
+    <p>
+        <strong>Pseudo-classes: </strong> A CSS pseudo-class is a keyword added to a selector that specifies a special
+        state of the selected element(s).
+        For
+        example, :hover can be used to change a button's color when the user's pointer hovers over it.
+    </p>
+    <h4>example</h4>
+    <p>
+        The following example will color all even rows gray (#ccc), all uneven rows which aren't dividable by 5 white
+        and every
+        other row magenta.
+    </p>
+    <code>
+        table tr:nth-child(2n) td{ <br>
+        background-color: #ccc;<br>
+        } <br>
+        
+        table tr:nth-child(2n+1) td{ <br>
+        background-color: #fff; <br>
+        } <br>
+        
+        table tr:nth-child(2n+1):nth-child(5n) td{ <br>
+        background-color: #f0f; <br>
+        }
+    </code>
+
+    <p>
+        <strong>Pseudo-elements: </strong> A CSS pseudo-element is a keyword added to a selector that lets you style a
+        specific part of the selected element(s).
+        For example, ::first-line can be used to change the font of the first line of a paragraph.
+    </p>
+    <h4>example</h4>
+    <p>
+        The following example will add a language-tag to every quote on a given page using the pseudo-class :lang and
+        the
+        pseudo-element ::after:
+    </p>
+    <code>
+            q:lang(de)::after{ <br>
+            content: " (German) "; <br>
+            } <br>
+            
+            q:lang(en)::after{<br>
+            content: " (English) ";<br>
+            }<br>
+            
+            q:lang(fr)::after{<br>
+            content: " (French) ";<br>
+            }<br>
+            
+            q:not(:lang(fr)):not(:lang(de)):not(:lang(en))::after{<br>
+            content: " (Unrecognized language) ";<br>
+            }
+        </code>
+
+
+    <h2>#5- </h2>
+    <p>
+        The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design
+        web
+        pages without having to use floats and positioning.
+    </p>
+
+    <ul>
+        <li>
+            <p>An HTML element becomes a grid container when its display property is set to grid or inline-grid.</p>
+            <code>
+                    .grid-container { 
+                    display: <strong>grid</strong>; 
+                    }
+                </code>
+        </li>
+        <li>
+            <p>
+                The grid-column-gap property sets the gap between the columns
+            </p>
+            <code>
+                .grid-container { 
+                display: grid; 
+                <strong>grid-column-gap: 50px;</strong> 
+                }
+            </code>
+        </li>
+        <li>
+            <p>
+                The grid-gap property is a shorthand property for the grid-row-gap and the grid-column-gap properties
+            </p>
+            <code>
+                .grid-container { 
+                display: grid; 
+                <strong>grid-gap: 50px 100px;</strong> 
+                }
+            </code>
+        </li>
+
+        <li>
+            <p>
+                The grid-gap property can also be used to set both the row gap and the column gap in one value
+            </p>
+            <code>
+                .grid-container {
+                display: grid;
+                <strong>grid-gap: 50px;</strong>
+                }
+            </code>
+        </li>
+
+        <li>
+            <p>
+                Place a grid item at column line 1, and let it end on column line 3
+            </p>
+            <code>.item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            }</code>
+        </li>
+        <li>
+            <p>
+                Place a grid item at row line 1, and let it end on row line 3
+            </p>
+            <code>
+                .item1 {
+                grid-row-start: 1;
+                grid-row-end: 3;
+                }
+            </code>
+        </li>
+    </ul>
+
+
+
+    <h2>#6 -</h2>
+    <p>
+        CSS Grid and Flexbox are layout models that share similarities and can be used together. The key difference is
+        that CSS
+        Grid can be used to create <strong>two-dimensional</strong> layouts, while Flexbox can only be used to create
+        <strong>one-dimensional</strong> layouts.
+        That means you can place components along the X- and Y-axis in CSS Grid and only one axis in Flexbox.
+    </p>
+</body>
+
+</html>

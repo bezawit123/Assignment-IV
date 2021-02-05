@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My calculator</title>
+    <style>
+        body {
+            background-color: #123;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #main {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #board {
+            background-color: white;
+            width: 280px;
+            height: 500px;
+            position: relative;
+            border-radius: 2px;
+            box-shadow: -4px 0px 77px 11px black;
+        }
+
+        #screen {
+            text-align: right;
+            position: absolute;
+            top: 0;
+            width: 98%;
+            /* height: 200px; */
+            padding: 1%;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        #calc {
+            font-size: 18px;
+        }
+
+        #result {
+            font-size: 32px;
+        }
+
+        #keys-container {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+
+        .key {
+            height: 70px;
+            width: 70px;
+            border: solid .5px #2b3033;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-weight: bold;
+        }
+
+        .dark-key {
+            background-color: #123;
+        }
+
+        .purple-key {
+            background-color: #5e4db6;
+        }
+
+        .yellow-key {
+            background-color: yellow;
+            color: black;
+        }
+
+        #bottom-left-key {
+            border-bottom-left-radius: 2px;
+        }
+
+        #bottom-right-key {
+            border-bottom-right-radius: 2px;
+        }
+
+        .row {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="board">
+            <div id="screen">
+                <p id="calc">59 x 89 ÷ 34 + 789 - 69</p>
+                <p id="result">874.441176</p>
+            </div>
+            <div id="keys-container">
+                <div class="row">
+                    <div class="key dark-key">
+                        C
+                    </div>
+                    <div class="key dark-key">
+                        +/-
+                    </div>
+                    <div class="key dark-key">
+                        %
+                    </div>
+                    <div class="key purple-key">
+                        ÷
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="key dark-key">
+                        7
+                    </div>
+                    <div class="key dark-key">
+                        8
+                    </div>
+                    <div class="key dark-key">
+                        9
+                    </div>
+                    <div class="key purple-key">
+                        x
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="key dark-key">
+                        4
+                    </div>
+                    <div class="key dark-key">
+                        5
+                    </div>
+                    <div class="key dark-key">
+                        6
+                    </div>
+                    <div class="key purple-key">
+                        -
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="key dark-key">
+                        1
+                    </div>
+                    <div class="key dark-key">
+                        2
+                    </div>
+                    <div class="key dark-key">
+                        3
+                    </div>
+                    <div class="key purple-key">
+                        +
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="key dark-key" id="bottom-left-key">
+                        0
+                    </div>
+                    <div class="key dark-key">
+                        .
+                    </div>
+                    <div class="key dark-key">
+                        del
+                    </div>
+                    <div class="key yellow-key" id="bottom-right-key">
+                        =
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
